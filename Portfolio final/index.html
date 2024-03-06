@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-A Web Developer Portfolio</title>
+    <!-- meta tags -->
+    <meta name="title" content="Portfolio-A Web Developer Portfolio" />
+    <meta   
+      class="description"
+      content="This is a personal portfolio made by Anas Farooq"
+    />
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="favicon.svg" type="image/x-icon" />
+
+    <!-- font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;500&family=Open+Sans:wght@400;500&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+    
+    <!-- AOS  -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Icons -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- CSS link -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+
+    <!-- HEADER  -->
+    <header class="topbar">
+        <a href="" class="logo">
+            <img src="logo-01.png" alt="logo" class="dark">
+            <img src="logo-01-01-01.png" alt="logo" class="light">
+        </a>
+        <button class="icon-btn theme-btn" data-theme-btn>
+            <span class="material-symbols-outlined dark" aria-hidden="true"> dark_mode </span>
+            <span class="material-symbols-outlined light" aria-hidden="true"> light_mode </span>
+
+            <div class="state-layer"></div>
+        </button>
+
+    </header>
+    <!-- HEADER END -->
+
+    <!-- Main -->
+    <main>
+<article>
+
+    <!-- HERO Start  -->
+    <section class="section hero"  data-aos="fade-right">
+        <div class="container">
+            <figure class="hero-banner img-holder" style=" --width: 240; --height: 240;">
+            <img src="Avatar.jpg" width="240" height="240" alt="avatar" class="img-cover"></figure>
+            <div class="hero-content">
+                <span class="label-large selection-subtitle">
+                    Web Developer
+                </span>
+                <h1 class="display-small">XYZ Programmer</h1>
+                <p class="body-large section-text">
+                    Greetings, I am XYZ Dev, a certified graphic designer who has seamlessly transitioned into the realm of front-end development. My expertise lies in HTML, CSS, JavaScript, and React, where I strive to blend creativity with technical precision. As an aspiring <br> <strong> M E R N</strong> stack developer, my objective is to attain mastery in MongoDB, Express.js, React, and Node.js. I invite you to join me at the convergence of creativity and technology, where we can collaborate to craft visually stunning websites that leave a lasting impression.
+                </p>
+                <div class="btn-wrapper">
+                    <a href="#" class="chip">
+                        <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                        <span class="label-large">xyz@gmail.com</span>
+                        <div class="state-layer"></div>
+                    </a>
+
+                    <a href="tel:+923179657473" class="chip">
+                        <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                        <span class="label-large">12345678910</span>
+                        <div class="state-layer"></div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- HERO END  -->
+
+    <!-- MAIN CONTENT START -->
+<div class="article">
+    <div class="about-card"  data-aos="fade-right">
+        <h2 class="card-title title-medium">About</h2>
+        <p class="body-medium card-text">
+            Passionate creator of digital experiences, merging design and functionality. Dedicated to crafting seamless user journeys through my expertise in web development and design
+        </p>
+        <ul class="about-list">
+            <li class="list-item"><span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+            <span class="label-medium">Norilsk, Russia</span></li>
+
+            <li class="list-item"><span class="material-symbols-outlined" aria-hidden="true"> work </span>
+                <span class="label-medium">upwork</span></li>
+
+            <li class="list-item"><span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                <a href="tel:+923179657473" class="label-medium">12345678910</a>
+                </li>
+        </ul>
+    </div>
+
+    <div>
+        <!-- PRIMARY TABS -->
+        <div class="primary-tabs" >
+            <button class="tab-btn active" data-tab-btn="project">
+                <span class="tab-text title-small">
+                Projects </span>
+                <div class="state-layer"></div>
+            </button>
+            <button class="tab-btn " data-tab-btn="resume">
+                <span class="tab-text title-small">
+                Resume </span>
+                <div class="state-layer"></div>
+            </button>
+            <button class="tab-btn " data-tab-btn="contact">
+                <span class="tab-text title-small">
+                Contact </span>
+                <div class="state-layer"></div>
+            </button>
+            
+        </div>
+        <!-- PRIMARY TABS END -->
+
+        <!-- PROJECTS  -->
+        
+        <section class="section tab-content active" data-tab-content="project">
+            <div class="container">
+                <div class="project-list">
+                    <div class="card">
+                        <figure class="card-banner img-holder" style=" --width: 334; --height: 180;">
+                        <img src="TBA-01.jpg" alt="project-1" width="334" height="180" class="img-cover"></figure>
+                        <div class="card-content card-subtitle">
+                            <span class="label-large">Web App</span>
+                            <h3 class="title-large card-title">###</h3>
+                        </div>
+                        <a href="#" onclick="return false;" class="state-layer"></a>
+                    </div>
+
+                    <div class="card">
+                        <figure class="card-banner img-holder" style=" --width: 334; --height: 180;">
+                        <img src="TBA-01.jpg" alt="project-1" width="334" height="180" class="img-cover"></figure>
+                        <div class="card-content card-subtitle">
+                            <span class="label-large">Web App</span>
+                            <h3 class="title-large card-title">###</h3>
+                        </div>
+                        <a href="#" onclick="return false;" class="state-layer"></a>
+                    </div>
+
+                    <div class="card">
+                        <figure class="card-banner img-holder" style=" --width: 334; --height: 180;">
+                        <img src="TBA-01.jpg" alt="project-1" width="334" height="180" class="img-cover"></figure>
+                        <div class="card-content card-subtitle">
+                            <span class="label-large">Web App</span>
+                            <h3 class="title-large card-title">###</h3>
+                        </div>
+                        <a href="#" onclick="return false;" class="state-layer"></a>
+                    </div>
+
+                    <div class="card">
+                        <figure class="card-banner img-holder" style=" --width: 334; --height: 180;">
+                        <img src="TBA-01.jpg" alt="project-1" width="334" height="180" class="img-cover"></figure>
+                        <div class="card-content card-subtitle">
+                            <span class="label-large">Web App</span>
+                            <h3 class="title-large card-title">###</h3>
+                        </div>
+                        <a href="#" onclick="return false;" class="state-layer"></a>
+                    </div>
+
+                    <div class="card">
+                        <figure class="card-banner img-holder" style=" --width: 334; --height: 180;">
+                        <img src="TBA-01.jpg" alt="project-1" width="334" height="180" class="img-cover"></figure>
+                        <div class="card-content card-subtitle">
+                            <span class="label-large">Web App</span>
+                            <h3 class="title-large card-title">###</h3>
+                        </div>
+                        <a href="#" onclick="return false;" class="state-layer"></a>
+                    </div>
+
+                    <div class="card">
+                        <figure class="card-banner img-holder" style=" --width: 334; --height: 180;">
+                        <img src="TBA-01.jpg" alt="project-1" width="334" height="180" class="img-cover"></figure>
+                        <div class="card-content card-subtitle">
+                            <span class="label-large">Web App</span>
+                            <h3 class="title-large card-title">###</h3>
+                        </div>
+                        <a href="#" onclick="return false;" class="state-layer"></a>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+<!-- PRIMARY TABS END -->
+
+        <!-- RESUME  -->
+<section class="section tab-content resume-tab" data-tab-content="resume">
+    <div class="container">
+        <h2 class="section-title title-small">
+            Experience
+        </h2>
+        <ul class="list">
+            <li class="resume-item">
+                <div class="resume-card">
+                    <p class="body-large">
+                        Freelance (Front-End Developer)
+                    </p>
+                    <span class="label-medium card-subtitle">
+                        2023 - Present
+                    </span>
+                    <span class="body-medium card-text">
+                        Collaborated with clients to deliver visually appealing and responsive websites.
+                    </span>
+                </div>
+            </li>
+            <li class="resume-item">
+                <div class="resume-card">
+                    <p class="body-large">
+                        Freelance (Graphic-Designer)
+                    </p>
+                    <span class="label-medium card-subtitle">
+                        2021 - 2023
+                    </span>
+                    <span class="body-medium card-text">
+                        I have collaborated with clients, delivering bespoke designs that seamlessly blend creativity with their unique vision, ensuring each project is a true reflection of their brand and objectives.
+                    </span>
+                </div>
+            </li>
+        </ul>
+        <h2 class="section-title title-small">
+            Education
+        </h2>
+        <ul class="list">
+            <li class="resume-item">
+                <div class="resume-card">
+    <p class="body-large">
+        Certification in Communication Design
+    </p>
+    <span class="label-medium card-subtitle">
+        2020 - 2021
+    </span>
+                </div>
+            </li>
+            <li class="resume-item">
+                <div class="resume-card">
+    <p class="body-large">
+        Intern, Web Development (CodSoft)
+    </p>
+    <span class="label-medium card-subtitle">
+        2024
+    </span>
+                </div>
+            </li>
+            <li class="resume-item">
+                <div class="resume-card">
+    <p class="body-large">
+        Degree Pursued: Engineering
+    </p>
+    <span class="label-medium card-subtitle">
+        Expected:2028
+    </span>
+                </div>
+            </li>
+        </ul>
+        <h2 class="section-title title-small">
+           Skills and Technologies </h2>
+           <u class="resume-bottom-list">
+            <li class="resume-bottom-item">
+                <img src="html5.svg" width="28" height="28" loading="lazy" alt="html" class="icon">
+                <span class="label-medium">
+                    HTML5
+                </span>
+            </li>
+            <li class="resume-bottom-item">
+                <img src="css3.svg" width="28" height="28" loading="lazy" alt="css" class="icon">
+                <span class="label-medium">
+                    CSS3
+                </span>
+            </li>
+            <li class="resume-bottom-item">
+                <img src="javascript.svg" width="28" height="28" loading="lazy" alt="javascript" class="icon">
+                <span class="label-medium">
+                    JavaScript
+                </span>
+            </li>
+            <li class="resume-bottom-item">
+                <img src="react.js.svg" width="28" height="28" loading="lazy" alt="javascript" class="icon">
+                <span class="label-medium">
+                    React
+                </span>
+            </li>
+            <li class="resume-bottom-item">
+                <img src="git.svg" width="28" height="28" loading="lazy" alt="Git" class="icon">
+                <span class="label-medium">
+                    Git
+                </span>
+            </li>
+            <li class="resume-bottom-item">
+                <img src="github.svg" width="28" height="28" loading="lazy" alt="Git" class="icon">
+                <span class="label-medium">
+                    GitHub
+                </span>
+            </li>
+            <li class="resume-bottom-item">
+                <img src="Adobe Illustrator CC.svg" width="28" height="28" loading="lazy" alt="Git" class="icon">
+                <span class="label-medium">
+                    Adobe Illustrator
+                </span>
+            </li>
+            <li class="resume-bottom-item">
+                <img src="adobe-photoshop.svg" width="28" height="28" loading="lazy" alt="Git" class="icon">
+                <span class="label-medium">
+                    Adobe Photoshop
+                </span>
+            </li>
+           </u>
+    </div>
+    
+    </section>
+    <!-- RESUME  -->
+
+
+<!-- CONTACT  -->
+<section class="section tab-content contact-tab" data-tab-content="contact">
+    <div class="container">
+        <div class="contact-info">
+            <h4 class="section-title title-small">
+                Contact Info
+            </h4>
+            <ul class="contact-info-list">
+                <li class="contact-info-item">
+                    <div class="icon-box">
+                        <span class="material-symbols-outlined" aria-hidden="true"> mail </span>
+                    </div>
+                    <div class="info-content">
+                        <p class="label-small info-title">
+                         Mail Me
+                        </p>
+                        <a href="mailto:anasfarooq2006@gmail.com" class="label-small info-text">xyz@gmail.com</a>
+                    </div>
+                </li>
+                <li class="contact-info-item">
+                    <div class="icon-box">
+                        <span class="material-symbols-outlined" aria-hidden="true"> call </span>
+                    </div>
+                    <div class="info-content">
+                        <p class="label-small info-title">
+                         Contact Me
+                        </p>
+                        <a href="tel:+923179657473" class="label-small info-text">12345678910</a>
+                    </div>
+                </li>
+                <li class="contact-info-item">
+                    <div class="icon-box">
+                        <span class="material-symbols-outlined" aria-hidden="true"> location_on </span>
+                    </div>
+                    <div class="info-content">
+                        <p class="label-small info-title">
+                         Address
+                        </p>
+                        <a href="tel:+923179657473" class="label-small info-text">Norilsk, Russia</a>
+                    </div>
+                </li>
+            </ul>
+            <h4 class="title-small">
+                Social Links
+            </h4>
+            <div class="social-list">
+                <a href="#" onclick="return false;" class="social-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_66_1657)">
+                          <mask id="mask0_66_1657" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0"
+                            width="24" height="24">
+                            <path d="M0 7.05719e-05H23.9999V24H0V7.05719e-05Z" fill="white" />
+                          </mask>
+                          <g mask="url(#mask0_66_1657)">
+                            <path
+                              d="M23.062 12C23.0596 12.9866 23.0485 13.9731 23.035 14.9596C23.0187 16.1498 23.0003 17.3405 22.7018 18.5103C22.3888 19.7371 21.7715 20.795 20.811 21.5783C19.7989 22.4036 18.5755 22.8375 17.2552 22.9178C15.5039 23.0243 13.7519 23.0664 12 23.0622C10.248 23.0664 8.496 23.0243 6.7448 22.9178C5.42443 22.8375 4.20109 22.4036 3.18897 21.5783C2.2285 20.795 1.61116 19.7371 1.29813 18.5103C0.999629 17.3405 0.981255 16.1498 0.964989 14.9596C0.951489 13.9731 0.940285 12.9866 0.937988 12C0.940285 11.0135 0.951489 10.0269 0.964989 9.04045C0.981255 7.85025 0.999629 6.65954 1.29813 5.48973C1.61116 4.26301 2.2285 3.20505 3.18897 2.42182C4.20109 1.59644 5.42443 1.16262 6.7448 1.08232C8.496 0.97582 10.248 0.933726 12 0.937851C13.7519 0.933726 15.5039 0.97582 17.2552 1.08232C18.5755 1.16262 19.7989 1.59644 20.811 2.42182C21.7715 3.20505 22.3888 4.26301 22.7018 5.48973C23.0003 6.65954 23.0187 7.85025 23.035 9.04045C23.0485 10.0269 23.0596 11.0135 23.062 12Z"
+                              style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                            <path
+                              d="M16.875 12C16.875 14.7183 14.6714 16.9219 11.9531 16.9219C9.23484 16.9219 7.03125 14.7183 7.03125 12C7.03125 9.28174 9.23484 7.07815 11.9531 7.07815C14.6714 7.07815 16.875 9.28174 16.875 12Z"
+                              style="stroke: var(--on-surface-variant)" stroke-width="1.5" stroke-miterlimit="10" />
+                            <path
+                              d="M19.875 5.67188C19.875 6.4485 19.2454 7.07812 18.4687 7.07812C17.6921 7.07812 17.0625 6.4485 17.0625 5.67188C17.0625 4.89526 17.6921 4.26563 18.4687 4.26563C19.2454 4.26563 19.875 4.89526 19.875 5.67188Z"
+                              style="fill: var(--on-surface-variant)" />
+                          </g>
+                        </g>
+                        <defs>
+                          <clipPath id="clip0_66_1657">
+                            <rect width="24" height="24" fill="white" />
+                          </clipPath>
+                        </defs>
+                      </svg>
+                </a>
+                <a href="#" onclick="return false;" class="social-item">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_66_1649)">
+                    <path d="M0.184072 10.462C-0.594929 15.368 1.58507 21.285 8.30707 23.468C8.42707 23.49 8.53807 23.5 8.64207 23.5C9.42407 23.5 9.96207 22.918 9.96207 22.2C9.86507 21.677 10.3451 19.558 9.04207 19.843C6.52307 20.379 6.22107 18.972 5.83707 18.236C6.92307 19.63 8.55507 19.595 9.78607 19.055C10.4691 18.755 10.1121 17.991 10.4361 17.712C10.5468 17.6167 10.6273 17.4911 10.6677 17.3507C10.7081 17.2103 10.7065 17.0611 10.6633 16.9216C10.6201 16.782 10.537 16.6581 10.4244 16.5651C10.3117 16.4721 10.1743 16.414 10.0291 16.398C7.71507 16.143 5.57207 15.397 5.57207 11.696C5.57207 9.52797 7.07707 9.33397 6.66207 8.42697C6.64707 8.39397 6.32907 7.67297 6.61707 6.57797C8.03607 6.83997 8.68907 7.85797 9.37007 7.67497C11.0571 7.21497 12.9141 7.21497 14.6001 7.67497C15.3041 7.86397 15.8071 6.87397 17.3381 6.57197C17.7791 8.22597 16.8651 8.62997 17.4411 9.24897C18.0731 9.92897 18.3941 10.752 18.3941 11.696C18.3941 17.26 13.6771 15.653 13.2931 16.916C13.2501 17.0565 13.2495 17.2065 13.2913 17.3474C13.3331 17.4882 13.4155 17.6136 13.5281 17.708C14.1381 18.221 14.0581 19.538 13.9931 20.597C13.9261 21.695 13.8681 22.642 14.4751 23.176C14.6891 23.366 15.0701 23.569 15.7591 23.429C22.3931 21.298 24.5891 15.407 23.8221 10.512C21.7261 -2.85603 2.29607 -2.84003 0.184072 10.462ZM8.45407 21.44L8.45807 21.945C7.95288 21.7709 7.46008 21.5628 6.98307 21.322C7.40807 21.431 7.89607 21.478 8.45407 21.44ZM8.82407 17.74L8.80907 17.82C7.95607 18.072 7.30007 17.821 6.85207 17.068L6.85107 17.066C7.53107 17.43 8.23207 17.626 8.82407 17.74ZM12.0001 1.99997C23.8331 1.99997 26.5021 18.267 15.4691 21.941C15.4311 21.644 15.4661 21.084 15.4901 20.689C15.5481 19.738 15.6161 18.63 15.2771 17.704C20.3651 16.645 20.7901 11.058 18.8311 8.56897C19.0741 7.61697 18.9761 5.37997 18.1021 5.10597C17.8961 5.04097 16.7971 4.80197 14.6651 6.14297C12.9023 5.72648 11.0668 5.72648 9.30407 6.14297C8.24007 5.47597 5.84207 4.39097 5.38207 5.54297C4.84807 6.88497 4.97507 7.96997 5.13407 8.57297C3.39507 10.777 3.91607 14.467 5.66807 16.199C4.67507 15.724 3.30707 15.562 3.01207 16.513C2.68907 17.55 3.92407 17.424 4.69107 19.317C4.76407 19.553 4.89907 19.83 5.10607 20.105C-1.70493 14.54 1.58107 1.99997 12.0001 1.99997Z" style="fill: var(--on-surface-variant)"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_66_1649">
+                    <rect width="24" height="24" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+                    </a>
+                    <a href="#" onclick="return false;" class="social-item">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M0.473114 19.5949C2.71038 21.0092 5.30432 21.7567 7.95111 21.7499C11.8611 21.7499 15.4441 20.2479 18.0411 17.5209C20.5261 14.9109 21.8931 11.4039 21.8251 7.84489C22.7671 7.03889 23.8751 5.49989 23.8751 3.99989C23.8752 3.86772 23.8403 3.73787 23.7741 3.6235C23.7078 3.50914 23.6125 3.41431 23.4978 3.34864C23.3831 3.28296 23.253 3.24876 23.1209 3.24951C22.9887 3.25026 22.8591 3.28592 22.7451 3.35289C21.8601 3.87289 21.0531 4.00889 20.2231 3.77589C18.5281 2.12389 16.0051 1.77589 13.8791 2.92189C12.0211 3.92189 10.9881 5.75189 11.0811 7.75189C7.93042 7.36754 5.04621 5.79215 3.02011 3.34889C2.94318 3.2558 2.8449 3.18267 2.73363 3.13571C2.62237 3.08875 2.50141 3.06936 2.38104 3.07917C2.26067 3.08899 2.14445 3.12773 2.04226 3.1921C1.94008 3.25647 1.85495 3.34456 1.79411 3.44889C0.820114 5.11689 0.830114 7.04989 1.67711 8.61089C1.49365 8.6414 1.32712 8.73647 1.20757 8.87894C1.08802 9.02141 1.02331 9.20191 1.02511 9.38789C1.02767 10.147 1.19358 10.8967 1.51159 11.5861C1.8296 12.2754 2.29225 12.8882 2.86811 13.3829C2.7659 13.481 2.69361 13.6061 2.65963 13.7436C2.62564 13.8811 2.63136 14.0255 2.67611 14.1599C2.92094 14.8903 3.31964 15.5596 3.84529 16.1227C4.37094 16.6857 5.0113 17.1295 5.72311 17.4239C4.24373 18.1297 2.59555 18.4049 0.967114 18.2179C0.183114 18.1119 -0.203886 19.1659 0.473114 19.5949ZM8.15611 17.6809C8.71711 17.2499 8.41912 16.3519 7.71511 16.3369C7.11476 16.3242 6.5254 16.1734 5.99268 15.8963C5.45995 15.6192 4.99818 15.2232 4.64311 14.7389C4.989 14.7179 5.33198 14.663 5.66711 14.5749C6.42811 14.3689 6.39211 13.2709 5.61911 13.1159C4.94279 12.9805 4.31525 12.6659 3.80211 12.205C3.28896 11.7441 2.90906 11.1539 2.70211 10.4959C3.07911 10.5889 3.46311 10.6409 3.84611 10.6479C4.60511 10.6519 4.89211 9.67889 4.27311 9.27189C2.87811 8.35289 2.28311 6.72989 2.67711 5.20389C5.13146 7.68603 8.42756 9.15727 11.9141 9.32689C12.0298 9.33266 12.1453 9.3115 12.2515 9.26508C12.3577 9.21866 12.4516 9.14824 12.5259 9.05937C12.6003 8.97049 12.653 8.86558 12.6799 8.75288C12.7068 8.64018 12.7072 8.52277 12.6811 8.40989C12.2061 6.35089 13.3561 4.90789 14.5911 4.24289C15.8131 3.58289 17.7751 3.37689 19.2791 4.95489C19.7261 5.42589 21.2341 5.44389 22.0011 5.26489C21.6571 5.91289 21.1281 6.52789 20.6331 6.87389C20.5293 6.9466 20.4455 7.04444 20.3897 7.15829C20.3339 7.27213 20.3079 7.39826 20.3141 7.52489C20.4751 10.8099 19.2511 14.0759 16.9561 16.4849C14.6441 18.9119 11.4471 20.2489 7.95211 20.2489C6.56211 20.2489 5.19911 20.0229 3.91111 19.5869C5.45111 19.2889 6.91411 18.6369 8.15611 17.6809Z" style="fill: var(--on-surface-variant)"/>
+                            </svg>
+                            
+                    </a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <h3 class="title-large">
+                Contact Me
+            </h3>
+            <form
+            method="POST" class="input-wrapper">
+                <input type="text" name="" placeholder="Name*" required class="input-field">
+                <input type="email" name="email" placeholder="Email*" required class="input-field">
+                <input type="text" name="text" placeholder="Subject*" required class="input-field">
+                <textarea name="message" placeholder="Message*" required class="textarea"></textarea>
+                <button type="submit" class="btn">
+                    <span class="label-large">Drop a Message</span>
+                    <div class="state-layer"></div>
+                </button>
+            </form>
+        </div>
+    </div>
+</section>
+</div>
+</div>
+<!-- CONTACT END  -->
+
+
+</article>
+</main>
+    <!-- Main End -->
+    <!-- FOOTER   -->
+    <footer class="footer">
+        <div class="container">     
+            <p class="body-medium">
+                Copyright 2024. All right reserved by <a href="#" onclick="return false;"><span class="footer-anchor" >XYZ Programmer</span></a>
+            </p>
+        </div>
+    </footer>
+    <!-- FOOTER END  -->    
+
+    <!-- JS link -->
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+  </body>
+</html>
