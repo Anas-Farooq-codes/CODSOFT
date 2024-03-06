@@ -1,5 +1,4 @@
 # CODSOFT
-
 📄 Task 1 - "Landing Page"
 
 Create an enticing and user-friendly Landing page using HTML, CSS and JS. This page acts as the first glimpse into our website, emphasizing the importance of making a lasting impact on visitors. Here's what you need to know about the task:
