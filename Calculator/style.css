@@ -1,0 +1,205 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    background-origin: padding-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html{
+    font-size: 16px;
+    background-image: linear-gradient( 94.3deg,  rgba(26,33,64,1) 10.9%, rgba(81,84,115,1) 87.1% );
+
+}
+
+
+.h1{
+    color: snow;
+    font-size: 1.7rem;
+    display: grid;
+    place-items: center;
+}
+
+.calculator{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.container{
+    background-color: #1d1d1d;
+    width: 600px;
+    height: auto;
+    border-radius: 20px 20px 30px 30px;
+    -webkit-border-radius: 20px 20px 30px 30px;
+    -moz-border-radius: 20px 20px 30px 30px;
+    -ms-border-radius: 20px 20px 30px 30px;
+    -o-border-radius: 20px 20px 30px 30px;
+}
+
+.output{
+    width: 100%;;
+}   
+
+.operation{
+    width: 600px;
+    height: 70px;
+
+    color: #a8a8a8;
+
+    font-size: 1.9em;
+    font-weight: bold;
+
+    position: relative;
+    overflow: hidden;
+}
+.operation .value{
+    position: absolute;
+
+    bottom: 5px;
+    right : 10px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.result{
+    width: 600px;
+    height: 140px;
+
+    color: #FFF;
+
+    font-size: 2.6em;
+    font-weight: bold;
+    
+    overflow: hidden;
+    position: relative;
+}
+
+.result .value{
+    position: absolute;
+
+    top: 50%;
+    transform: translateY(-50%);
+    right : 10px;
+    
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+
+.input{
+    background-color: #c3cbdc;
+background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
+
+    border-radius: 25px 25px;
+    border: 1px solid #1d1d1d;
+    height: 340px;
+    -webkit-border-radius: 25px 25px;
+    -moz-border-radius: 25px 25px;
+    -ms-border-radius: 25px 25px;
+    -o-border-radius: 25px 25px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.row button{
+    width: 50px;
+    height: 50px;
+
+    font-size: 1.5em;
+
+    border: none;
+    border-radius: 50%;
+    background-color: transparent;
+
+    margin : 8px;
+
+    cursor: pointer;
+}
+
+.row button:hover{
+    font-weight: bold;
+}
+
+.row #calculate{
+    color: #FFF;
+    background-color: #12705a;
+    width : 121px;
+    border-radius: 50px;
+}
+.row #delete{
+    color: #FFF;
+    background-color: #d22b2b;
+}
+
+#division, #multiplication, #subtraction, #addition {
+    color: #149476;
+}
+
+.input button span{
+    font-size: 0.6em;
+    position: absolute;
+}
+
+.active-angle{
+    background-color: #414040 !important;
+    color: #FFF !important;
+    border-radius: 10px !important;
+}
+
+
+
+@media screen and (max-width: 600px) {
+    .container {
+      width: 60%;
+      border-radius: 0; /* Adjust border-radius for smaller screens */
+    }
+    
+    .row button {
+      width: 40px;
+      height: 40px;
+      font-size: 1.2em;
+    }
+  }
+  
+  /* For larger screens */
+  @media only screen and (max-width: 768px) {
+
+    .h1{
+        font-size: 1rem;
+    }
+    
+    .calculator {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+border: none;
+    }
+    .operation,
+    .result {
+        width: 90%;
+        font-size: 1.5em;
+    }
+
+    .row button {
+        width: 40px;
+        height: 40px;
+        font-size: 1.2em;
+    }
+    /* .row #calculate{
+        border-radius: 0px;
+        -webkit-border-radius:0px;
+        -moz-border-radius:0px;
+        -ms-border-radius:0px;
+        -o-border-radius:0px; */
+}
